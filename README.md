@@ -12,5 +12,6 @@ The goal of the second part of the project is to create a streaming process of p
  Inside the mysql prompt create a database called tolldata and use it. Then, from a different terminal start a zookeeper server and a kafka server. Afterwards, we need to create a sample topic named toll. 
  
  In order to simulate the incoming data from passing vehicles, the toll_traffic_generator.py will be used. Additionally, the straming_data_reader.py is responsible for publishing streaming data from the kafka server to the database. By excecuting the generator we can see at the output of the terminal that it looks like some vehicles are passing the toll plaza. Finally, by excecuting the reader, we can see that the incoming vehicles are inserted into the database. 
- 
+ ![alt text](https://github.com/georgeniko/tol_plaza_etl/blob/main/simulator_output.png?raw=true)
+ ![alt text](https://github.com/georgeniko/rtol_plaza_etl/blob/main/reader_output.png?raw=true)
  This mini project was developed as part of a graded project for the IBM Data Engineering Professional Certificate on Coursera. Source of the dataset: https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0250EN-SkillsNetwork/labs/Final%20Assignment/tolldata.tgz
